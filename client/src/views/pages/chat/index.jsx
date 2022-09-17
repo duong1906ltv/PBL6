@@ -5,6 +5,7 @@ import React, { useState } from "react";
 import Messages from "../../../components/messenger";
 
 import "./chat.scss";
+
 function Chat() {
   const [showMessange, setShowMessange] = useState(false);
 
